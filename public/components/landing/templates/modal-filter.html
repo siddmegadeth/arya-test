@@ -1,0 +1,33 @@
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm12">
+            <h4 class="text-muted">{{modalViewData.name}}</h4>
+        </div>
+        <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="btn-group" role="group">
+                <button type="button" class="btn btn-default">Step 1</button>
+                <button type="button" class="btn btn-default">Step 2</button>
+                <button type="button" class="btn btn-default">Step 3</button>
+            </div>
+        </div>
+    </div>
+    <div class="row padding-2x">
+        <uib-tabset active="activeJustified">
+                <uib-tab index="0" heading="Run">
+                    <div ng-include="'components/landing/templates/tabs-run.html'"></div>
+                </uib-tab>
+                <uib-tab index="1" heading="AML">
+                    <div ng-include="'components/landing/templates/tabs-aml.html'"></div>
+                </uib-tab>
+                <uib-tab index="2" heading="Run">
+                    <div ng-include="'components/landing/templates/tabs-run.html'"></div>
+                </uib-tab>
+            </uib-tabset>
+    </div>
+    <div class="row padding-2x">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="form-group">
+            </div>
+        </div>
+    </div>
+</div>

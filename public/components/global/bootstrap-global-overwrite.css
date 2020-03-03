@@ -1,0 +1,33 @@
+a {
+    text-decoration: none !important;
+}
+
+a.list-group-item {
+    border-radius: 0 !important;
+}
+
+a.navbar-toggle {
+    border-color: transparent !important;
+}
+
+/*NgAside overwrite*/
+.modal-dialog.modal-lg {
+    width: 50% !important;
+}
+
+/*navbar icon color*/
+i.fa.fa-bars {
+    color: white;
+}
+
+/*table filter icon*/
+i.fa.fa-filter {
+    color: #c6c6c6;
+}
+
+
+.table-row {
+    width: 100% !important;
+    overflow-x: scroll !important;
+
+}

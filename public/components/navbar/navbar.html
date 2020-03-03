@@ -1,0 +1,20 @@
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href>Arya Risk</a>
+            <a class="navbar-toggle"  ng-click="showAsideMenu()">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </a>
+        </div>
+        <ul class="nav navbar-nav hidden-xs">
+            <!-- Landing -->
+            <li ng-class="{active:isActive('/')}">
+                <a href="/">Home</a>
+            </li>
+            <!-- Login -->
+            <li ng-class="{active:isActive('/login')}">
+                <a href="/login">Login</a>
+            </li>
+        </ul>
+    </div>
+</nav>
